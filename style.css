@@ -1,11 +1,15 @@
 .navbar{
-  padding: 1rem 8rem;
-  z-index: 1000;
+/*   padding: 1rem 8rem;
+  z-index: 1000; */
 }
 
 .navbar .navbar-brand{
-  font-size: 1.4rem;
-  font-weight: 700;
+   position: relative;
+   z-index: 2;
+   font-size: 1.4rem;
+   font-weight: 700;
+   float: left;
+   padding-left: 3rem;
 }
 
 #navbarNav > ul > li:nth-child(n) > a{
